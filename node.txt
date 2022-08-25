@@ -1,0 +1,23 @@
+Around web features:
+1. login - persist login => window.localStorage store token
+2. register
+3. logout
+4. search by category
+5. display posts
+6. create a new post
+
+Router:
+    base -> redirect /login
+         -> redorect /home
+    base/login -> Login
+    base/register -> Register
+    base/home -> Home
+
+Pages:
+Layout -> common component
+    - top + bottom
+    - Header
+
+                App  state: isLoggedIn
+       TopBar           Main
+                Login   Register  Home
